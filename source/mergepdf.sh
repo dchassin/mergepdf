@@ -72,4 +72,4 @@ while [ $# -gt 0 ]; do
 done
 echo '\end{document}' >> ${TEX}
 (cd $TMP; pdflatex ${NAME}.tex  ) 1>$STDOUT 2>$STDERR
-mv $TEX $OUT 1>$STDOUT 2>$STDERR
+mv $PDF $OUT 1>$STDOUT 2>$STDERR
